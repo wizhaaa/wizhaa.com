@@ -1,10 +1,15 @@
 import type {NextPage} from "next";
 import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import Waves from "./components/Waves";
 import Portfolio from "./components/Portfolio";
+import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+
+import croppedPortrait from "../public/img/croppedPortrait.png";
 
 const Home: NextPage = () => {
   return (
@@ -48,13 +53,16 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1> notwz </h1>
+        <div className="portrait-img">
+          <Image src={croppedPortrait} alt="self portrait" />
+        </div>
+
         <h2>
           {" "}
           <i> will zhang</i>
         </h2>
-        <div>about more projects connect </div>
+        <Nav />
         <Waves />
-
         <div className="milk">
           <div className="content-wrapper">
             <Portfolio />

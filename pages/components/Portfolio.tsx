@@ -1,21 +1,21 @@
 const portfolio = [
   {
-    title: "about",
-    des: "cs major @ cornell university. i love to code on projects that allow me to work and learn from others! ",
-    href: "https://getpupil.com",
-    link: "read more",
+    title: "ABOUT",
+    des: "CS student at Cornell University. Working in the MD and NY area.",
+    href: "/about",
+    link: "READ MORE",
   },
   {
-    title: "projects",
-    des: "come look at my cs and other projects i have worked on and their github links",
-    href: "https://getpupil.com",
-    link: "look",
+    title: "PROJECTS",
+    des: "Browse through my current and past projects in CS!",
+    href: "/projects",
+    link: "BROWSE",
   },
   {
-    title: "gallery",
-    des: "some",
-    href: "https://getpupil.com",
-    link: "peruse",
+    title: "GALA",
+    des: "Take a peak at my artwork",
+    href: "/gallery",
+    link: "PEAK",
   },
 ];
 
@@ -25,10 +25,9 @@ const Boba = (props: any) => {
     <span className={`boba floating ${index % 2 !== 0 && "flex-end"}`}>
       <h2> {title} </h2>
       <div>{des}</div>
-      <button>
-        {" "}
-        <a href={href}> {link} </a>
-      </button>
+      <a className="btn" href={href}>
+        {link}
+      </a>
     </span>
   );
 };
