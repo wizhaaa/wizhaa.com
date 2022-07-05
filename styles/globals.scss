@@ -179,6 +179,78 @@ h2 {
   }
 }
 
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+
+  max-width: 800px;
+  margin: 20px auto;
+
+  & > * {
+    width: 100%;
+    font-size: 1rem;
+  }
+  & > div {
+    padding: 20px 3%;
+  }
+  & > #preface {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  & > #intro::before {
+    content: "H";
+    font-size: 3rem;
+    margin-top: -2rem;
+  }
+}
+
+.project-card {
+  background: $bobacolor;
+  color: $offwhite;
+  border-radius: 15px;
+  //margin: 20px;
+  padding-bottom: 30px;
+
+  max-width: 350px;
+
+  & h2 {
+    width: 100%;
+  }
+}
+
+.technologies-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chip {
+  background: $offwhite;
+  color: $bobacolor;
+  border-radius: 20px;
+  padding: 7px;
+}
+.card-links {
+  display: flex;
+  gap: 15px;
+}
+.icon-btn {
+  cursor: pointer;
+  margin-top: 20px;
+  &:hover {
+    transform: scale(1.15);
+    color: #fff;
+  }
+}
+
 .block {
   max-width: 100px !important;
   height: 5px !important;

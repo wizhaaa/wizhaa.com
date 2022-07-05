@@ -6,41 +6,6 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Waves from "./components/Waves";
 
-const Wrapper = styled.div`
-  display: flex;
-  flex-flow: column;
-  min-height: 0;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  margin: 20px 0;
-  & > * {
-    width: 100%;
-    max-width: 700px;
-    font-size: 1.2rem;
-  }
-  & > div {
-    padding: 20px 10%;
-  }
-  & > #preface {
-    font-size: 1.4rem;
-    font-weight: 600;
-    text-align: center;
-  }
-
-  & > #intro::before {
-    content: "H";
-    font-size: 3rem;
-    margin-top: -2rem;
-  }
-`;
-
-const Block = styled.div`
-  width: 5px !important;
-  height: 2px !important;
-  background: #3b3b3b;
-`;
-
 const About: NextPage = () => {
   return (
     <>
