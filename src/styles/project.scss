@@ -1,0 +1,84 @@
+.projects {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+  margin-top: 80px;
+}
+
+.project {
+  background: #fda5a5;
+  color: #212121;
+  padding: 45px;
+  border-radius: 40px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+
+  width: 100%;
+  max-width: 500px;
+
+  position: relative;
+  z-index: 1;
+
+  & > a {
+    color: #a70000;
+    font-weight: 600;
+    &:hover {
+      transform: none;
+      font-weight: 700;
+      transform: scale(1);
+
+      cursor: pointer;
+      border-bottom: none;
+    }
+  }
+}
+
+.p-title {
+  font-size: 2.25rem;
+  font-weight: 900;
+  max-width: 90%;
+}
+
+.p-des {
+  font-size: 1.25rem;
+  color: #444444;
+}
+
+.techs {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  width: 100%;
+}
+.tech {
+  background: #ae5353;
+  border-radius: 40px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 1rem;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background: #6d1919;
+  }
+}
+
+.gh-icon {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    color: rgb(132, 243, 207);
+  }
+}
