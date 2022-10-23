@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="page">
       <div className="half">
-        <h1> notwz </h1>
+        <h1> wizha </h1>
         <h2> Will Zhang </h2>
       </div>
       <Nav />
