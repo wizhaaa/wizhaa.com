@@ -19,7 +19,12 @@ const Home = () => {
           CS major. Fueled by boba. Hardstuck programmer.
           <p>Studying at Cornell University</p>
           <p>Working in the Maryland & NJ/NY area</p>
-          <p>Always looking to improve</p>
+          <p>Always looking to improve </p>
+          <p>
+            <a href="/projects">
+              <em> View projects here ...</em>
+            </a>
+          </p>
         </div>
         <Footer />
       </main>
