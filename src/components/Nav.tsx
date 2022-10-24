@@ -7,19 +7,24 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav-w">
-        <a href="/" className="nav-link">
-          Home
+        <a href="/">
+          <h3> Will Zhang </h3>
         </a>
-        <a href="/about" className="nav-link">
-          About
-        </a>
-        <a href="/projects" className="nav-link">
-          Projects
-        </a>
+        <div className="nav-links">
+          <a href="/" className="nav-link">
+            Home
+          </a>
+          <a href="/about" className="nav-link">
+            About
+          </a>
+          <a href="/projects" className="nav-link">
+            Projects
+          </a>
+        </div>
       </div>
       <div className="hamburger">
         <a href="/">
-          <h3> notwz </h3>
+          <h3> Will Zhang </h3>
         </a>
         {!open ? (
           <FiMenu
@@ -31,6 +36,7 @@ const Nav = () => {
           <FiX onClick={() => setOpen(false)} className="menu-icon" size={40} />
         )}
       </div>
+
       {open && (
         <div className="nav-stack">
           <a href="/" className="nav-link">
