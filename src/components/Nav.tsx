@@ -20,6 +20,9 @@ const Nav = () => {
           <a href="/projects" className="nav-link">
             Projects
           </a>
+          <a href="/resume" className="nav-link">
+            Resume
+          </a>
         </div>
       </div>
       <div className="hamburger">
@@ -47,6 +50,9 @@ const Nav = () => {
           </a>
           <a href="/projects" className="nav-link">
             Projects
+          </a>
+          <a href="/resume" className="nav-link">
+            Resume
           </a>
         </div>
       )}
