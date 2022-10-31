@@ -16,7 +16,7 @@ const Home = () => {
             <h4>
               CS major.{" "}
               <span className="highlight">
-                Fueled by boba. Hardstuck programmer.
+                Hardstuck programmer. Fueled by boba.
               </span>
             </h4>
 
