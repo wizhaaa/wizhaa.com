@@ -34,8 +34,8 @@ const projects = [
   {
     title: "Design at Cornell",
     github: "https://github.com/cornell-dti/DesignAtCornell",
-    rawLink: "http://design.cornell.edu",
-    link: "design.cornell.edu/",
+    rawLink: "https://cudesign.io",
+    link: "cudesign.io",
     des: "Cornell University's hub for all things design related.",
     techs: ["Firebase", "React", "Express"],
   },
