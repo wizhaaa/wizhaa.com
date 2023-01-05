@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./styles/global.css";
 import "./styles/waves.scss";
 import "./styles/main.scss";
+import "./styles/extras.scss";
 
 const container = document.getElementById("root");
 const root = createRoot(container!);

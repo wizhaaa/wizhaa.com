@@ -2,10 +2,10 @@ import Nav from "../components/Nav";
 import Waves from "../components/Waves";
 import Footer from "../components/Footer";
 
-import {Document, Page} from "react-pdf";
-import resume from "../assets/resume.pdf";
+// import {Document, Page} from "react-pdf";
+// import resume from "../assets/resume.pdf";
 
-const NoPage = () => {
+const Resume = () => {
   return (
     <div className="page">
       <div className="half">
@@ -14,12 +14,12 @@ const NoPage = () => {
       <Waves />
       <div className="milk">
         <h1> Resume </h1>
+
         <iframe
           title="resume"
-          src="https://drive.google.com/file/d/1LgjlD8VxIRxObOViEdRPD9nHIkQ1LnLW/preview"
-          width="90%"
+          width="80%"
           height="1000px"
-          allow="autoplay"
+          src="https://docs.google.com/document/d/e/2PACX-1vTN03bYMI5evrHIVoUOMG-twCYg9rBvf5Xij2Q5z5MTZekL2tWVqmzls17r_IJYMNTjP_6OMVrbP2t8/pub?embedded=true"
         ></iframe>
       </div>
 
@@ -28,4 +28,4 @@ const NoPage = () => {
   );
 };
 
-export default NoPage;
+export default Resume;

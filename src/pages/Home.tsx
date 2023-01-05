@@ -29,8 +29,9 @@ const Home = () => {
               I'm Will, a sophomore studying Computer Science and Business at
               Cornell University. Last summer, I have worked at Pupil on their
               user onboarding and matching functionality. On Campus, I work as a
-              Technical Product Manager at Design & Tech Initiative, where we
-              build products for community impact!
+              Technical Product Manager at Design & Tech Initiative and Vice
+              President of our Computer Science Club, where we build products
+              for community impact and provide outreach for students!
             </p>
 
             <p>
