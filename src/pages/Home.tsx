@@ -8,7 +8,7 @@ const Home = () => {
     <div className="page">
       <div className="half"></div>
       <Nav />
-      <main>
+      <main className="animation">
         <Waves />
         <div className="milk">
           <div className="intro">

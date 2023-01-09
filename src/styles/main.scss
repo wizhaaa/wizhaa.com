@@ -172,7 +172,7 @@ footer {
   display: flex-column;
   margin: 10px;
   gap: 40px;
-} 
+}
 
 .about-h {
   width: 100%;
@@ -292,4 +292,6 @@ footer {
   font-weight: 600;
   font-size: 1.5rem;
   padding: 40px 20px;
+
+  transition: all 0.3s ease-out;
 }
