@@ -3,26 +3,23 @@ import Waves from "../components/Waves";
 import Footer from "../components/Footer";
 
 // import {Document, Page} from "react-pdf";
-// import resume from "../assets/resume.pdf";
+import resume from "../assets/resume.pdf";
 
 const Resume = () => {
   return (
     <div className="page">
-      <div className="half">
-        <Nav />
-      </div>
+      <Nav />
       <Waves />
       <div className="milk">
-        <h1> Resume </h1>
+        <h1 className="about-h"> Resume </h1>
 
         <iframe
           title="resume"
-          width="80%"
-          height="1000px"
-          src="https://docs.google.com/document/d/e/2PACX-1vTN03bYMI5evrHIVoUOMG-twCYg9rBvf5Xij2Q5z5MTZekL2tWVqmzls17r_IJYMNTjP_6OMVrbP2t8/pub?embedded=true"
+          id="resume"
+          src={resume}
+          frameBorder="0"
         ></iframe>
       </div>
-
       <Footer />
     </div>
   );
