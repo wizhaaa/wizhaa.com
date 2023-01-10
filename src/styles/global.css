@@ -26,3 +26,15 @@ button {
   border: none;
   color: inherit;
 }
+
+header {
+  position: relative;
+}
+
+main {
+  z-index: 5;
+}
+
+footer {
+  position: relative;
+}

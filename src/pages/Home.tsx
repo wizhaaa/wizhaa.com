@@ -14,7 +14,7 @@ const Home = () => {
           <div className="intro">
             <h1> Hello, I'm Will! 👋 </h1>
             <h4>
-              CS major.{" "}
+              CS major.
               <span className="highlight">
                 Hardstuck programmer. Fueled by boba.
               </span>

@@ -6,10 +6,16 @@ const Nav = () => {
 
   return (
     <nav>
+      <span id="boba-1" className="boba-float" />
+      <span id="boba-2" className="boba-float" />
+      {/* <span id="boba-3" className="boba-float" /> */}
+      <span id="boba-4" className="boba-float" />
+      <span id="boba-5" className="boba-float" />
       <div className="nav-w">
         <a href="/">
           <h3> Will Zhang </h3>
         </a>
+
         <div className="nav-links">
           <a href="/" className="nav-link">
             Home

@@ -8,6 +8,16 @@ import Resume from "./pages/Resume";
 import NoPage from "./pages/NoPage";
 import Playground from "./pages/Playground";
 
+// to hide boba
+// function testScroll(ev: any) {
+//   if (window.pageYOffset > 200) {
+//     document
+//       .querySelectorAll(".boba-float")
+//       .forEach((c) => ((c as any).style.visibility = "hidden"));
+//   }
+// }
+// window.onscroll = testScroll;
+
 function App() {
   return (
     <>

@@ -1,3 +1,5 @@
+$milk: #2f2f2f;
+
 #resume {
   width: 100%;
   height: 800px;
@@ -5,6 +7,62 @@
 
 .watch-list {
   margin: 200px 0;
+}
+
+#boba-1 {
+  top: 50px;
+  left: 25px;
+  animation-duration: 7s;
+}
+#boba-2 {
+  top: 50px;
+  right: 60%;
+  animation-duration: 4s;
+}
+
+#boba-3 {
+  top: 65px;
+  animation-duration: 8s;
+  animation-delay: 3s;
+}
+
+// about
+#boba-4 {
+  top: 100px;
+  right: 30%;
+  animation-duration: 6s;
+}
+
+// resume
+#boba-5 {
+  top: 60px;
+  right: 20px;
+  animation-duration: 3s;
+}
+
+.boba-float {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 1 !important;
+  background-color: $milk;
+
+  animation-name: floating;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 .list-wrapper {
