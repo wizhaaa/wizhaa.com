@@ -80,7 +80,8 @@
 }
 
 .proj {
-  width: 50%;
+  width: 100%;
+  max-width: 550px;
   height: auto;
   padding: 5%;
   color: #fff;
@@ -91,6 +92,7 @@
   height: 100%;
   max-height: 500px;
   max-width: 550px;
+  max-width: 100%;
   padding: 10px;
 }
 
@@ -112,6 +114,7 @@
 }
 
 .techs {
+  padding-top: 20px;
   display: flex;
   flex-flow: row wrap;
   gap: 5px;
