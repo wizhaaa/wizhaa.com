@@ -14,7 +14,7 @@ const Home = () => {
           <div className="intro">
             <h1> Hello, I'm Will! 👋 </h1>
             <h4>
-              CS major.
+              CS major.{" "}
               <span className="highlight">
                 Hardstuck programmer. Fueled by boba.
               </span>
@@ -29,7 +29,7 @@ const Home = () => {
               I'm Will, a sophomore studying Computer Science and Business at
               Cornell University. Last summer, I have worked at Pupil on their
               user onboarding and matching functionality. On Campus, I work as a
-              Technical Product Manager at Design & Tech Initiative and Vice
+              Technical Product Manager at Design & Tech Initiative and as the
               President of our Computer Science Club, where we build products
               for community impact and provide outreach for students!
             </p>

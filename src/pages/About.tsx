@@ -25,11 +25,16 @@ const About = () => {
               Currently, I'm attending Cornell University as a computer science
               major while serving as the <em>Technical Project Manager </em> for
               Design at Cornell within Design Tech & Initiative, acting{" "}
-              <em> Vice President </em>
+              <em> President </em>
               of the Association of Computer Science Undergraduates, a{" "}
               <em>Big </em>
               in the Chinese Student Association, and a <em>brother </em>in
-              Alpha Phi Omega.
+              Alpha Phi.
+            </p>
+            <p>
+              Outside of school, I like to go to the gym, play basketball &
+              soccer, watch anime or dramas, cook, take photos, and play video
+              games.
             </p>
             <p>
               As for development, I have real project experience with git/Github
