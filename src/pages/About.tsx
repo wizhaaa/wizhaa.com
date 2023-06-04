@@ -44,7 +44,7 @@ const About = () => {
               like Express, React, Next, MUI and more.
             </p>
           </div>
-          <img className="me2-img" src="/me2.jpeg" alt="me" />
+          <img className="me2-img" src="/dumbo_me.jpg" alt="me" />
         </div>
 
         <WatchList />
