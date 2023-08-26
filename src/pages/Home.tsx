@@ -26,12 +26,14 @@ const Home = () => {
           <div className="intro">
             <h3> Nice to meet you 🤠 </h3>
             <p>
-              I'm Will, a sophomore studying Computer Science and Business at
-              Cornell University. Last summer, I have worked at Pupil on their
-              user onboarding and matching functionality. On Campus, I work as a
-              Technical Product Manager at Design & Tech Initiative and as the
-              President of our Computer Science Club, where we build products
-              for community impact and provide outreach for students!
+              Hi! I'm Will, a prospective Cornell University graduate with a
+              Bachelor's degree in Computer Science and minors in Business,
+              Economics, and Informational Sciences. Last summer, I have worked
+              at Pupil on their user onboarding and matching functionality. On
+              Campus, I work as a Technical Product Manager at Design & Tech
+              Initiative and as the President of our Computer Science Club,
+              where we build products for community impact and provide outreach
+              for students!
             </p>
 
             <p>

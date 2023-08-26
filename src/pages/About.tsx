@@ -16,25 +16,31 @@ const About = () => {
       <div className="milk">
         <div className="about-h">Hello!</div>
         <p className="headline">
-          First-gen coder having fun making projects on the web.
+          First-gen coder exploring unique ways to solve problems.
         </p>
 
         <div className="about-body">
           <div className="about-content">
             <p>
               Currently, I'm attending Cornell University as a computer science
-              major while serving as the <em>Technical Project Manager </em> for
-              Design at Cornell within Design Tech & Initiative, acting{" "}
+              major while having served as the{" "}
+              <em>Technical Product Manager </em> for products such as
+              CUReviews, CUDesign, and Zing. I am the current{" "}
               <em> President </em>
-              of the Association of Computer Science Undergraduates, a{" "}
-              <em>Big </em>
+              of the Association of Computer Science Undergraduates where we
+              connect the CIS community of faculty, companies, and students with
+              opportunities, events, collaborations, and more.
+            </p>
+            <p>
+              For fun, I tutor at Cornell's Learning Strategy Center, act as an
+              Teacher's Assistang, am a <em>"Big" </em>
               in the Chinese Student Association, and a <em>brother </em>in
               Alpha Phi.
             </p>
             <p>
               Outside of school, I like to go to the gym, play basketball &
-              soccer, watch anime or dramas, cook, take photos, and play video
-              games.
+              soccer, binge on TV shows and snacks, cook, take photos, and play
+              video games with friends.
             </p>
             <p>
               As for development, I have real project experience with git/Github
