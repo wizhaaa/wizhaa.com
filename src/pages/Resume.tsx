@@ -12,7 +12,8 @@ const Resume = () => {
       <Waves />
       <div className="milk">
         <h1 className="about-h"> Resume </h1>
-
+        <p> Last Updated: 08/26/2023 </p>
+        <br />
         <iframe
           title="resume"
           id="resume"
