@@ -9,6 +9,15 @@ import "../styles/project.scss";
 
 const projects = [
   {
+    title: "CU Reviews",
+    github: "https://github.com/cornell-dti/course-reviews-react-2.0",
+    rawLink: "https://www.cureviews.org/",
+    link: "cureviews.org",
+    des: "CU Reviews provides a platform for students to submit and browse peer reviews of courses offered at Cornell University. Students can see metrics such as grades, other student experiences, and levels of difficulty/workload.  ",
+    techs: ["React", "MongoDB", "Express"],
+    img: "/cureviews.jpg",
+  },
+  {
     title: "Zing",
     github: "https://github.com/cornell-dti/zing-lsc",
     rawLink: "https://zing-lsc-prod.web.app/",
