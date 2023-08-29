@@ -33,7 +33,7 @@ const About = () => {
             </p>
             <p>
               For fun, I tutor at Cornell's Learning Strategy Center, act as an
-              Teacher's Assistang, am a <em>"Big" </em>
+              Teacher's Assistant, <em>"Big" </em>
               in the Chinese Student Association, and a <em>brother </em>in
               Alpha Phi.
             </p>
