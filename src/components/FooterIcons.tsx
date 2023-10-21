@@ -12,7 +12,7 @@ const Icons = () => {
         size={40}
       />
       <FiGithub
-        onClick={() => window.open("https://github.com/notwz")}
+        onClick={() => window.open("https://github.com/wizhaaa")}
         size={40}
       />
       <FiInstagram
