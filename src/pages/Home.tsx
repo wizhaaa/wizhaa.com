@@ -26,13 +26,23 @@ const Home = () => {
           <div className="intro">
             <h3> Nice to meet you 🤠 </h3>
             <p>
-              Hi! I'm Will, a prospective Cornell University graduate with a
-              Bachelor's degree in Computer Science and Economics while minoring
-              in Business. Last summer, I have worked at Pupil on their user
-              onboarding and matching functionality. On Campus, I work as a
-              Technical Product Manager at Design & Tech Initiative and as the
-              President of our Computer Science Club, where we build products
-              for community impact and provide outreach for students!
+              Hi! I'm Will, a student at Cornell University double majoring in
+              Computer Science and Economics. I am also pursuing a minor in
+              Business and Data Science. I am constantly looking for ways to
+              improve my skills, broaden my worldview, and leave an impact. I
+              get excited about tackling unique and challenging problems,
+              collaborating with other talented minds, and bringing solutions to
+              life with technology. I have tons of experience in software
+              development, product management, UI/UX design principles, and
+              working within large organizations.
+            </p>
+            <p>
+              In my free time, I love to spend time with friends and family by
+              cooking, reading, lifting heavy, and drinking tea!
+            </p>
+            <p>
+              I would love to connect with new people - feel free to message me
+              or email me at wz282@cornell.edu!
             </p>
 
             <p>
