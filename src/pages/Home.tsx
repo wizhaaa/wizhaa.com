@@ -47,7 +47,7 @@ const Home = () => {
 
             <p>
               <a href="/projects">
-                <em> View projects here ...</em>
+                <em> View projects here ... </em>
               </a>
             </p>
           </div>
