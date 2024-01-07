@@ -5,19 +5,19 @@ const Icons = () => {
     <p className="footer-icons">
       <FiLinkedin
         onClick={() => window.open("https://www.linkedin.com/in/notwz/")}
-        size={40}
+        size={25}
       />
       <FiSend
-        onClick={() => window.open("mailto:zhanliam21@gmail.com")}
-        size={40}
+        onClick={() => window.open("mailto:wz282@cornell.edu")}
+        size={25}
       />
       <FiGithub
         onClick={() => window.open("https://github.com/wizhaaa")}
-        size={40}
+        size={25}
       />
       <FiInstagram
         onClick={() => window.open("https://www.instagram.com/notwillzhang/")}
-        size={40}
+        size={25}
       />
     </p>
   );

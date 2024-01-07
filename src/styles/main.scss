@@ -1,11 +1,15 @@
-$milk: #2f2f2f;
+$milk: #0d0d0d;
 $maxw: 920px;
-$teal: rgb(95, 219, 180);
-$bright-teal: rgb(135, 255, 217);
+$teal: #2a27ff;
+$bright-teal: #2a27ff;
+
+$accent-color: #2a27ff;
 
 h1 {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
 }
 
 h2 {
@@ -36,13 +40,14 @@ h4 {
 }
 
 a {
-  color: #3f3f3f;
+  color: #f0f0f0ff;
   text-decoration: none;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
+  display: inline-block;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 }
 
@@ -76,6 +81,19 @@ p {
   }
 }
 
+// nav bar
+
+// circle
+
+.logo {
+  position: static;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #2a27ff;
+  color: #2a27ff;
+}
+
 nav {
   width: 100%;
   display: flex;
@@ -83,17 +101,14 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding: 5px;
-  height: 80px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background: #f0f0f0;
   z-index: 10;
 }
 
 .nav-w {
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 
@@ -102,52 +117,67 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
-  width: 100%;
-  max-width: 1120px;
-  padding: 70px;
+  width: 94%;
+  height: 100%;
+  padding: 30px 20px 30px 30px;
+  max-width: 1320px;
+  // background: white;
 }
 
-.nav-links {
+#nav-links {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  color: #f0f0f0;
 }
 
-.hamburger {
-  @media screen and (min-width: 901px) {
-    display: none;
-  }
+a.active {
+  color: #2a27ff;
+  font-weight: 600;
+}
 
+.nav-m {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 45px;
-  & > *:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-    color: rgb(53, 209, 160);
-  }
+  align-items: center;
 
-  position: relative;
+  width: 94%;
+  height: 100%;
+  padding: 30px 20px 30px 30px;
+  max-width: 1320px;
+  background: rgb(13, 13, 13);
+}
+
+.menu-icon {
+  cursor: pointer;
 }
 
 .nav-stack {
   position: absolute;
   top: 80px;
   right: 0px;
-  background: #f0f0f0;
-  padding: 20px;
+  padding: 10px 10px 30px 10px;
   display: flex;
   flex-flow: column;
   gap: 10px;
   width: 100%;
   min-height: 150px;
-  text-align: center;
+  // text-align: center;
+  background: rgb(13, 13, 13);
 
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+
+  & > * {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  & > *:hover {
+    transform: scale(1.01);
+  }
 }
 
 em {
@@ -156,10 +186,18 @@ em {
   font-weight: 700;
 }
 
+// extras
+.divider {
+  width: 96%;
+  height: 1px;
+  background: #909090;
+  margin: 70px 0;
+}
+
+// footer stuff
 footer {
   width: 100%;
-  background: rgb(95, 219, 180);
-  color: #212121;
+  color: #f0f0f0;
   padding: 50px 50px;
 
   display: flex;
@@ -249,12 +287,12 @@ footer {
   gap: 20px;
   align-items: center;
 
-  color: rgb(67, 67, 67);
+  color: #c5c5c5;
 
   & > *:hover {
     transform: scale(1.1);
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: $accent-color;
   }
 }
 
@@ -268,6 +306,8 @@ footer {
 .page {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .half {
@@ -278,6 +318,7 @@ footer {
   width: 100%;
   gap: 15px;
   padding: 30px 0;
+
   // background: $milk;
 }
 
@@ -285,15 +326,19 @@ footer {
   background: $milk;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-flow: column nowrap;
   width: 100%;
-  min-height: 40vh;
+  max-width: 1600px;
+  min-height: 100vh;
   height: 100%;
 
   color: #fff;
-  font-weight: 600;
   font-size: 1.5rem;
   padding: 40px 20px;
+
+  // margin-right: auto;
+  // margin-left: auto;
 
   transition: all 0.3s ease-out;
 }

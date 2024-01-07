@@ -3,17 +3,18 @@ import FooterIcons from "./FooterIcons";
 const Footer = () => {
   return (
     <footer>
+      <div className="divider"></div>
+      <div className="row">Copyright (c) 2024 William Zhang</div>
       <div>
-        <h2> Thanks for stopping by! </h2>
         <div className="row">
-          <a href="/" className="nav-link">
-            Home
+          <a href="https://www.linkedin.com/in/notwz/" className="nav-link">
+            LinkedIn
           </a>
-          <a href="/about" className="nav-link">
-            About
+          <a href="https://github.com/wizhaaa" className="nav-link">
+            GitHub
           </a>
-          <a href="/Projects" className="nav-link">
-            Projects
+          <a href="mailto:wz282@cornell.edu" className="nav-link">
+            Email
           </a>
         </div>
       </div>

@@ -110,3 +110,20 @@ $milk: #2f2f2f;
     transform: translateY(0);
   }
 }
+
+.slide-down {
+  animation: fadeDownAnimation ease 3.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeDownAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(-125);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(125);
+  }
+}

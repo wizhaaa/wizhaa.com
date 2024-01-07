@@ -21,7 +21,7 @@ const Nav = () => {
             Home
           </a>
           <a href="/about" className="nav-link">
-            About
+            Info
           </a>
           <a href="/projects" className="nav-link">
             Projects

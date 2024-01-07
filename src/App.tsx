@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import NoPage from "./pages/NoPage";
 import Playground from "./pages/Playground";
+import Home1 from "./pages/Home1";
 
 // to hide boba
 // function testScroll(ev: any) {
@@ -23,7 +24,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home1 />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
