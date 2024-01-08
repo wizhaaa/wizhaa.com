@@ -161,22 +161,26 @@ a.active {
   padding: 10px 10px 30px 10px;
   display: flex;
   flex-flow: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
   gap: 10px;
   width: 100%;
-  min-height: 150px;
-  // text-align: center;
+  min-height: 100vh;
   background: rgb(13, 13, 13);
-
-  // justify-content: center;
 
   & > * {
     width: 92%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.6rem;
   }
 
   & > *:hover {
-    transform: scale(1.01);
+    transform: scale(1.1);
   }
 }
 
