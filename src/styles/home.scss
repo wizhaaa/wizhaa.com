@@ -1,3 +1,5 @@
+$accent-color: #2a27ff;
+
 .hook {
   width: 92%;
   display: flex;
@@ -14,6 +16,11 @@
   font-weight: 400;
   letter-spacing: 1.2px;
   width: 75%;
+}
+
+.underline {
+  border-bottom: 4px solid $accent-color;
+  padding-bottom: 5px;
 }
 
 .etc {
@@ -46,16 +53,18 @@
 
 .memoji-container {
   width: 25%;
-  height: auto;
+  height: 100%;
   display: flex;
 }
 
 .memoji {
-  max-width: 200px;
-  height: auto;
+  max-width: 140px;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .slide-up {

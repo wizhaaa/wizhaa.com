@@ -13,20 +13,15 @@ const Home1 = () => {
         {/* Self Hook */}
         <div className="hook">
           <div className="name fade-in">
-            Will Zhang is a developer & student based in the East Coast.
+            <span className="underline">Will Zhang </span>is a developer &
+            student based in the East Coast.
             <div className="etc animation">
               <div>BA Computer Science & Economics </div>
               <a href="https://www.cornell.edu/">@Cornell University</a>
             </div>
           </div>
           <div className="memoji-container">
-            <video
-              autoPlay
-              muted
-              loop
-              className="memoji animation"
-              src="/memoji.mov"
-            />
+            <img className="memoji animation" src="/memoji.gif" />
           </div>
         </div>
 
