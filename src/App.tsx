@@ -1,13 +1,14 @@
 import {BrowserRouter} from "react-router-dom";
 import {Route, Routes} from "react-router";
 
-import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import NoPage from "./pages/NoPage";
 import Playground from "./pages/Playground";
 import Home1 from "./pages/Home1";
+
+import {Analytics} from "@vercel/analytics/react";
 
 // to hide boba
 // function testScroll(ev: any) {
@@ -22,6 +23,7 @@ import Home1 from "./pages/Home1";
 function App() {
   return (
     <>
+      <Analytics />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home1 />} />
