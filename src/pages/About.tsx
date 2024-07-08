@@ -73,7 +73,6 @@ const About = () => {
     <div className="page">
       <NavBar />
       <div className="milk sans">
-        {/* Self Hook */}
         <div className="info-page">
           <div className="info-header">A little info about me.</div>
           <div className="info-container">
@@ -83,10 +82,11 @@ const About = () => {
             <br />
             I'm currently a student at Cornell University studying Computer
             Science and Economics with minors in Data Science and Business. My
-            past experiences include working as a Student Research Assistant at
-            Yonsei University, Software Enginner at Pupil, Software Engineer at
-            DTI, and as Software Enginner at China D. I aim to graduate in
-            Spring 2025 with dual degrees at New York.
+            past experiences include working as a Software Engineer at Amazon
+            Web Services, Student Research Assistant at Yonsei University,
+            Software Enginner at Pupil, Software Engineer at DTI, and as
+            Software Enginner at China D. I aim to graduate in Spring 2025 with
+            dual degrees at New York.
             <br />
             <br />I believe in the power of technology, helping bridge
             delightful experiences between human and products, pragmatically
