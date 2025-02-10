@@ -1,4 +1,11 @@
 .projects {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 92%;
+  gap: 16px;
+}
+
+.projects-pics {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
