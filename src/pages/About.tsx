@@ -17,26 +17,26 @@ const About = () => {
             <br />
             <br />
             I'm currently a student at Cornell University studying Computer
-            Science and Economics with minors in Data Science and Business. My
-            past experiences include working as a Software Engineer Intern at
-            Amazon Web Services, Software Engineer at Millenium Management,
-            Student Research Assistant at Yonsei University, Software Enginner
-            at Pupil, Software Engineer at DTI, and as Software Enginner for
-            China Delight. I aim to graduate in Spring 2025 with dual degrees at
-            New York.
+            Science and Economics with minors in Data Science and Business. I
+            have experience working at places such as Amazon Web Services (AWS),
+            Millenium Management, and Yonsei University.
+            <br />
+            <br /> I will be graduating in Spring 2025 with dual degrees at New
+            York.
             <br />
             <br />I believe in the power of technology, helping bridge
             delightful experiences between human and products, pragmatically
             solving complex problems with tactical solutions, and bringing a
             conceptual idea to reality. I enjoy the process and the sense of
-            acheivement of contribution gives me.
+            acheivement that contributions gives me.
             <br />
             <br />
             Get in touch! I would love to chat about work, projects, technology,
             or anything :)
             <br />
             <br />
-            wz282@cornell.edu
+            Hit me up at{" "}
+            <a href="mailto:wz282@cornell.edu"> wz282@cornell.edu </a>
           </div>
         </div>
       </div>
